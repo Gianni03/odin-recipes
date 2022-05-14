@@ -1,2 +1,120 @@
 /* font-family: 'Macondo', cursive; */
 /* font-family: 'Padauk', sans-serif; */
+
+/* colores
+--ebony: #647059ff;
+--ebony-2: #595c56ff;
+--french-lime: #a2fc4eff;
+--dark-olive-green: #446e1eff;
+--dark-moss-green: #3c5227ff;
+*/
+*,*::before,*::after{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+*{
+   /* border: 1px solid red; */
+}
+body{
+   font-family: 'Macondo', cursive;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   background-color: #3c5227ff;
+}
+header{
+   position: fixed;
+   top: 0;
+   background-color:#3c5227ff;
+   width: 100%;
+   margin-bottom: 3em;
+}
+h1{
+   font-size: 5em;
+   letter-spacing: .25em;
+   padding: .375em;
+   color: #a2fc4eff;
+   text-align: center;
+}
+
+.imagen img{
+   width: 100%;
+}
+h2{
+   text-transform: uppercase;
+   font-size: 3em;
+   text-align: center;
+   color: #a2fc4eff;
+   margin-top: 4em;
+   padding: 1em;
+}
+p{
+   font-size: 1.125em;
+   color: #a2fc4eff;
+   text-align: center;
+}
+.recetas{
+   text-align: center;
+   padding: 1em;
+
+}
+.recetas li{
+   background-color: #595c56ff;
+   margin: 1em auto;
+   padding: 1.5em;
+   color: #a2fc4eff;
+   border-radius: 2em;
+   width: 35%;
+}
+.recetas a{
+   text-decoration: none;
+   font-size: 1.25em;
+   color: #a2fc4eff;
+   background-color: #595c56ff;
+}
+.recetas a:hover{
+   background-color:#647059ff ;
+}
+footer{
+   background-color: #647059ff;
+   padding: 1em;
+   text-align: center;
+}
+footer span{
+   font-size: 1.125em;
+}
+
+.ingredientes,
+.receta{
+   font-size: 3em;
+   text-align: center;
+   color: #a2fc4eff;
+   padding: 1em;
+   margin-bottom: -1em;
+}
+.lista-ingredientes,
+.lista-receta{
+   width: 80%;
+   margin: 1em auto;
+   font-size: 1.5em;
+   font-family: 'Padauk', sans-serif;
+}
+.inicio{
+   width: 80%;
+   margin: 1em auto;
+   text-align: center;
+
+}
+.inicio button a{
+   text-decoration: none;
+   font-size: 1.125em;
+   background-color: #a2fc4eff;
+   color: #3c5227ff;
+   padding: 1em;
+   text-align: center;
+   border-radius: 20px;
+}
+.inicio button a:hover{
+   border: #595c56ff solid 2px;
+}
